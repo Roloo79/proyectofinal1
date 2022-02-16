@@ -115,6 +115,14 @@ $styles: (
     a{
         border-style: none;
     }
+}
     
+/* MIXIN */
+@mixin estilosLetra ($letra, $tamanio) {
+    font-style: $letra;
+    font-size: $tamanio;
+}
+.footer1 {
 
+    @include estilosLetra(italic, 25px );
 }
