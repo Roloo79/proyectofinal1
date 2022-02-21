@@ -7,8 +7,14 @@
 }
 
 /* VARIABLES */
+/* ESTILOS GENERALES*/
+h1, h3 {
+  color: #faf9f9;
+}
+
 h2 {
   padding-left: 5%;
+  color: #faf9f9;
 }
 
 h3 {
@@ -55,21 +61,11 @@ footer {
   font-size: 3rem;
 }
 
-.row p {
-  font-size: 2rem;
-}
-
 .nav-link {
   border-style: solid;
   border-width: 1px;
   border-color: #2b2431;
   margin-right: 5%;
-}
-
-body {
-  background-color: #0cbaba;
-  background-image: -webkit-gradient(linear, left top, right top, from(#0cbaba), color-stop(74%, #084d68));
-  background-image: linear-gradient(90deg, #0cbaba 0%, #084d68 74%);
 }
 
 .d-block {
@@ -78,9 +74,9 @@ body {
 
 /* MAPS Y MAP GET */
 .boton--facebook {
-  background-color: #df633d;
+  background-color: #3b5998;
   margin-left: 5%;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: "Bebas Neue";
   border: solid 1px;
   border-radius: 0.5rem;
@@ -94,12 +90,13 @@ body {
   color: black;
   margin-right: 0.75rem;
   margin-left: 0.75rem;
+  text-decoration: none;
 }
 
 .boton--instagram {
-  background-color: #dfba54;
+  background-color: #C13584;
   margin-left: 5%;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: "Bebas Neue";
   border: solid 1px;
   border-radius: 0.5rem;
@@ -113,12 +110,13 @@ body {
   color: black;
   margin-right: 0.75rem;
   margin-left: 0.75rem;
+  text-decoration: none;
 }
 
 .boton--linkedin {
-  background-color: #dfba54;
+  background-color: #0077B5;
   margin-left: 5%;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: "Bebas Neue";
   border: solid 1px;
   border-radius: 0.5rem;
@@ -132,34 +130,57 @@ body {
   color: black;
   margin-right: 0.75rem;
   margin-left: 0.75rem;
+  text-decoration: none;
 }
 
-.boton--mail, .nav-item {
-  background-color: #df633d;
+.boton--mail, .nav-item, .boton-contacto {
+  background-color: #EA4335;
   margin-left: 5%;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: "Bebas Neue";
   border: solid 1px;
   border-radius: 0.5rem;
 }
 
-.boton--mail:hover, .nav-item:hover {
+.boton--mail:hover, .nav-item:hover, .boton-contacto:hover {
   background-color: #e29742;
 }
 
-.boton--mail a, .nav-item a {
+.boton--mail a, .nav-item a, .boton-contacto a {
   color: black;
   margin-right: 0.75rem;
   margin-left: 0.75rem;
+  text-decoration: none;
+}
+
+.boton--whatsapp {
+  background-color: #25D366;
+  margin-left: 5%;
+  font-size: 1.25rem;
+  font-family: "Bebas Neue";
+  border: solid 1px;
+  border-radius: 0.5rem;
+}
+
+.boton--whatsapp:hover {
+  background-color: #e29742;
+}
+
+.boton--whatsapp a {
+  color: black;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  text-decoration: none;
 }
 
 /* EXTEND */
-.nav-item {
+.nav-item, .boton-contacto {
   margin-right: 0%;
   margin-left: 0%;
+  cursor: pointer;
 }
 
-.nav-item a {
+.nav-item a, .boton-contacto a {
   border-style: none;
 }
 
@@ -167,5 +188,52 @@ body {
 .footer1 {
   font-style: italic;
   font-size: 25px;
+}
+
+.divContacto {
+  margin-top: 25%;
+}
+
+.boton-contacto {
+  border-style: none;
+  border-radius: 0%;
+  background-color: transparent;
+  color: black;
+}
+
+#index {
+  background-image: url(../img/fondo2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+#servicios, #flota {
+  background-color: rgba(0, 0, 0, 0.89);
+}
+
+#nosotros {
+  background-image: url(../img/fondo8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+#contacto {
+  background-image: url(../img/nubes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+.logo {
+  width: 1rem;
+  height: 1rem;
+}
+
+.texto {
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 20%;
 }
 /*# sourceMappingURL=styles.css.map */
