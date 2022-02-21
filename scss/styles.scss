@@ -87,7 +87,6 @@ $styles: (
 @each $boton , $color in $iconos{
     .boton--#{$boton} {
         background-color: $color;
-        margin-left: 5%;
         font-size: map-get($styles, tamaniio);
         font-family: map-get($styles, fuente );
         color: map-get($styles, color1);

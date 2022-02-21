@@ -75,7 +75,6 @@ footer {
 /* MAPS Y MAP GET */
 .boton--facebook {
   background-color: #3b5998;
-  margin-left: 5%;
   font-size: 1.25rem;
   font-family: "Bebas Neue";
   border: solid 1px;
@@ -95,7 +94,6 @@ footer {
 
 .boton--instagram {
   background-color: #C13584;
-  margin-left: 5%;
   font-size: 1.25rem;
   font-family: "Bebas Neue";
   border: solid 1px;
@@ -115,7 +113,6 @@ footer {
 
 .boton--linkedin {
   background-color: #0077B5;
-  margin-left: 5%;
   font-size: 1.25rem;
   font-family: "Bebas Neue";
   border: solid 1px;
@@ -135,7 +132,6 @@ footer {
 
 .boton--mail, .nav-item, .boton-contacto {
   background-color: #EA4335;
-  margin-left: 5%;
   font-size: 1.25rem;
   font-family: "Bebas Neue";
   border: solid 1px;
@@ -155,7 +151,6 @@ footer {
 
 .boton--whatsapp {
   background-color: #25D366;
-  margin-left: 5%;
   font-size: 1.25rem;
   font-family: "Bebas Neue";
   border: solid 1px;
