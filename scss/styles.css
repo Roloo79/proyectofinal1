@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Luxurious+Roman&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -21,6 +22,7 @@ h3 {
   font-family: 'Bebas Neue', cursive;
   text-decoration: underline;
   padding-left: 3%;
+  font-size: 3rem;
 }
 
 h4 {
@@ -39,12 +41,6 @@ ul li {
 
 ul li:hover {
   background-color: #e29742;
-}
-
-.card-body p:hover {
-  font-style: italic;
-  font-size: 30px;
-  color: #e29742;
 }
 
 footer {
@@ -70,6 +66,11 @@ footer {
 
 .d-block {
   border-radius: 2%;
+}
+
+.quienes {
+  color: white;
+  text-decoration: none;
 }
 
 /* MAPS Y MAP GET */
@@ -198,15 +199,8 @@ footer {
   background-attachment: fixed;
 }
 
-#servicios, #flota {
+#servicios, #flota, #nosotros {
   background-color: rgba(0, 0, 0, 0.89);
-}
-
-#nosotros {
-  background-image: url(../img/fondo8.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 #contacto {
@@ -216,20 +210,24 @@ footer {
   background-attachment: fixed;
 }
 
-#footer1 {
-  margin-top: 60vh;
-}
-
-.texto {
+.texto, .textoPago {
   font-size: 1.5rem;
   color: white;
-  margin-top: 20%;
 }
 
 @media (max-width: 480px) {
   .logo {
     width: 2rem;
     height: 2rem;
+  }
+  .container1, .container2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -240,6 +238,9 @@ footer {
   }
   .mapita {
     width: 40%;
+  }
+  h3 {
+    font-size: 2rem;
   }
 }
 
@@ -262,5 +263,60 @@ footer {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   margin-top: 5%;
+}
+
+.container1 div h3 {
+  color: black;
+  font-size: 1.75rem;
+}
+
+.container1 div p {
+  color: black;
+  font-family: 'Fredoka One';
+  font-style: oblique;
+  margin-top: 20%;
+}
+
+.container2 div h3 {
+  color: black;
+  font-size: 1.75rem;
+}
+
+.container2 div p {
+  color: black;
+  font-family: 'Fredoka One';
+  font-style: oblique;
+  margin-top: 20%;
+}
+
+.form-label {
+  color: black;
+  font-family: 'Fredoka One';
+  font-style: oblique;
+}
+
+.certif {
+  width: 8rem;
+  height: 8rem;
+}
+
+.divCertif {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+.textoPago {
+  margin-top: 10%;
+  font-size: 1rem;
+}
+
+.containerPago {
+  width: 25%;
 }
 /*# sourceMappingURL=styles.css.map */

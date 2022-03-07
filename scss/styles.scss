@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -20,6 +21,7 @@ h3{
     font-family: 'Bebas Neue', cursive;
     text-decoration: underline;
     padding-left: 3%;
+    font-size: 3rem;
 }
 h4{
     font-size: small;
@@ -38,15 +40,7 @@ p{
 
         }
     }
-.card-body{
-    p{
-        &:hover{
-            font-style: italic;
-            font-size: 30px;
-            color:$colorHover;
-        }
-    }
-}
+
 footer{
     margin-top: 5%;
     height: 2%;
@@ -69,6 +63,10 @@ footer{
 }
 .d-block{
     border-radius: 2%;
+}
+.quienes{
+    color: white;
+    text-decoration: none;
 }
 /* MAPS Y MAP GET */
 $iconos: (
@@ -137,15 +135,9 @@ $styles: (
     background-size: cover;
     background-attachment: fixed;
 }
-#servicios , #flota{
+#servicios , #flota , #nosotros{
     background-color: rgba(0, 0, 0, 0.89);
     }
-#nosotros{
-        background-image: url(../img/fondo8.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-}
 
 #contacto{
         background-image: url(../img/nubes.jpg);
@@ -153,18 +145,19 @@ $styles: (
         background-size: cover;
         background-attachment: fixed;
 }
-#footer1{
-    margin-top: 60vh;
-}
+
 .texto{
     font-size: 1.5rem;
-    color: white;
-    margin-top: 20%;
+    color: rgb(255, 255, 255);
 }
 @media (max-width: 480px){
     .logo{
         width: 2rem;
         height: 2rem;
+    }
+    .container1 , .container2{
+        display: flex;
+        flex-direction: column;
     }
 }
 @media (min-width: 481px) and (max-width: 768px){
@@ -174,6 +167,9 @@ $styles: (
     }
     .mapita{
         width: 40%;
+    }
+    h3{
+        font-size: 2rem;
     }
 }
 .textoFlota{
@@ -190,4 +186,56 @@ $styles: (
     display: flex;
     justify-content: space-evenly;
     margin-top: 5%;
+}
+.container1{
+    div{
+        h3{
+            color: black;
+            font-size: 1.75rem;   
+        }
+    p{
+        color: black;
+        font-family: 'Fredoka One';
+        font-style:oblique;
+        margin-top: 20%;
+    }
+    }
+}
+.container2{
+    div{
+        h3{
+            color: black;
+            font-size: 1.75rem;
+        }
+    p{
+        color: black;
+        font-family: 'Fredoka One';
+        font-style:oblique;
+        margin-top: 20%;
+    }
+    }
+}
+.form-label{
+    color: black;
+    font-family: 'Fredoka One';
+        font-style:oblique;
+}
+.certif{
+    width: 8rem;
+    height: 8rem;
+}
+.divCertif{
+    display: flex;
+    justify-content: space-around;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+.textoPago{
+    @extend .texto;
+    margin-top: 10%;
+    font-size: 1rem;
+}
+.containerPago{
+    width: 25%;
 }
