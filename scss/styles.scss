@@ -135,16 +135,9 @@ $styles: (
     background-size: cover;
     background-attachment: fixed;
 }
-#servicios , #flota , #nosotros{
+#servicios , #flota , #nosotros , #contacto{
     background-color: rgba(0, 0, 0, 0.89);
     }
-
-#contacto{
-        background-image: url(../img/nubes.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-}
 
 .texto{
     font-size: 1.5rem;
@@ -171,6 +164,10 @@ $styles: (
     h3{
         font-size: 2rem;
     }
+    .imgPagos{
+        width: 2rem;
+        height: 2rem;
+    }
 }
 .textoFlota{
     color: white;
@@ -190,11 +187,11 @@ $styles: (
 .container1{
     div{
         h3{
-            color: black;
+            color: white;
             font-size: 1.75rem;   
         }
     p{
-        color: black;
+        color: white;
         font-family: 'Fredoka One';
         font-style:oblique;
         margin-top: 20%;
@@ -204,11 +201,11 @@ $styles: (
 .container2{
     div{
         h3{
-            color: black;
+            color: white;
             font-size: 1.75rem;
         }
     p{
-        color: black;
+        color: white;
         font-family: 'Fredoka One';
         font-style:oblique;
         margin-top: 20%;
@@ -216,7 +213,7 @@ $styles: (
     }
 }
 .form-label{
-    color: black;
+    color: white;
     font-family: 'Fredoka One';
         font-style:oblique;
 }
@@ -224,18 +221,23 @@ $styles: (
     width: 8rem;
     height: 8rem;
 }
-.divCertif{
-    display: flex;
-    justify-content: space-around;
-    border-style: solid;
-    border-color: white;
-    border-width: 1px;
-}
 .textoPago{
     @extend .texto;
     margin-top: 10%;
     font-size: 1rem;
 }
 .containerPago{
+    width: 35%;
+}
+.textoQuienes{
+    @extend .texto;
+    width: 60%;
+    margin-top: 5%;
+}
+.certificados{
     width: 25%;
+    margin-top: 5%;
+}
+#marginCertificados{
+    margin-top: 10%;
 }

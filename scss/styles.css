@@ -199,18 +199,11 @@ footer {
   background-attachment: fixed;
 }
 
-#servicios, #flota, #nosotros {
+#servicios, #flota, #nosotros, #contacto {
   background-color: rgba(0, 0, 0, 0.89);
 }
 
-#contacto {
-  background-image: url(../img/nubes.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.texto, .textoPago {
+.texto, .textoPago, .textoQuienes {
   font-size: 1.5rem;
   color: white;
 }
@@ -242,6 +235,10 @@ footer {
   h3 {
     font-size: 2rem;
   }
+  .imgPagos {
+    width: 2rem;
+    height: 2rem;
+  }
 }
 
 .textoFlota {
@@ -266,31 +263,31 @@ footer {
 }
 
 .container1 div h3 {
-  color: black;
+  color: white;
   font-size: 1.75rem;
 }
 
 .container1 div p {
-  color: black;
+  color: white;
   font-family: 'Fredoka One';
   font-style: oblique;
   margin-top: 20%;
 }
 
 .container2 div h3 {
-  color: black;
+  color: white;
   font-size: 1.75rem;
 }
 
 .container2 div p {
-  color: black;
+  color: white;
   font-family: 'Fredoka One';
   font-style: oblique;
   margin-top: 20%;
 }
 
 .form-label {
-  color: black;
+  color: white;
   font-family: 'Fredoka One';
   font-style: oblique;
 }
@@ -300,23 +297,26 @@ footer {
   height: 8rem;
 }
 
-.divCertif {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  border-style: solid;
-  border-color: white;
-  border-width: 1px;
-}
-
 .textoPago {
   margin-top: 10%;
   font-size: 1rem;
 }
 
 .containerPago {
+  width: 35%;
+}
+
+.textoQuienes {
+  width: 60%;
+  margin-top: 5%;
+}
+
+.certificados {
   width: 25%;
+  margin-top: 5%;
+}
+
+#marginCertificados {
+  margin-top: 10%;
 }
 /*# sourceMappingURL=styles.css.map */
