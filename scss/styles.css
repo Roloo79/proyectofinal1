@@ -208,42 +208,10 @@ footer {
   color: white;
 }
 
-@media (max-width: 480px) {
-  .logo {
-    width: 2rem;
-    height: 2rem;
-  }
-  .container1, .container2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 768px) {
-  .logo {
-    width: 3rem;
-    height: 3rem;
-  }
-  .mapita {
-    width: 40%;
-  }
-  h3 {
-    font-size: 2rem;
-  }
-  .imgPagos {
-    width: 2rem;
-    height: 2rem;
-  }
-}
-
 .textoFlota {
   color: white;
-  margin-top: 10%;
+  margin-top: 3%;
+  margin-bottom: 2%;
   font-size: 2rem;
 }
 
@@ -292,11 +260,6 @@ footer {
   font-style: oblique;
 }
 
-.certif {
-  width: 8rem;
-  height: 8rem;
-}
-
 .textoPago {
   margin-top: 10%;
   font-size: 1rem;
@@ -307,16 +270,91 @@ footer {
 }
 
 .textoQuienes {
-  width: 60%;
-  margin-top: 5%;
-}
-
-.certificados {
-  width: 25%;
-  margin-top: 5%;
-}
-
-#marginCertificados {
   margin-top: 10%;
+}
+
+#certificados {
+  width: 50%;
+  margin-top: 2%;
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 2rem;
+    height: 2rem;
+  }
+  .container1, .container2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .imgPagos {
+    width: 2rem;
+    height: 2rem;
+  }
+  .textoQuienes {
+    font-size: 0.75rem;
+    width: 100%;
+  }
+  #tripu {
+    display: none;
+  }
+  .certif {
+    width: 2rem;
+    height: 2rem;
+  }
+  .a123 {
+    width: 100vw;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .logo {
+    width: 3rem;
+    height: 3rem;
+  }
+  .mapita {
+    width: 40%;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  .imgPagos {
+    width: 2rem;
+    height: 2rem;
+  }
+  .textoQuienes {
+    font-size: 0.75rem;
+    margin-top: 2%;
+  }
+  .certif {
+    width: 2rem;
+    height: 2rem;
+  }
+  .quienes {
+    font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .textoQuienes {
+    font-size: 1rem;
+    margin-top: 2%;
+  }
+  .certif {
+    width: 2rem;
+    height: 2rem;
+  }
+  .quienes {
+    font-size: 2rem;
+  }
+}
+
+.a123 {
+  width: 50%;
 }
 /*# sourceMappingURL=styles.css.map */
