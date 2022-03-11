@@ -203,16 +203,17 @@ footer {
   background-color: rgba(0, 0, 0, 0.89);
 }
 
-.texto, .textoPago, .textoQuienes {
+.texto, .textoPago {
   font-size: 1.5rem;
   color: white;
+  font-family: 'Luxurious Roman', cursive;
 }
 
 .textoFlota {
   color: white;
   margin-top: 3%;
   margin-bottom: 2%;
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 .mapita {
@@ -269,15 +270,6 @@ footer {
   width: 35%;
 }
 
-.textoQuienes {
-  margin-top: 10%;
-}
-
-#certificados {
-  width: 50%;
-  margin-top: 2%;
-}
-
 @media (max-width: 480px) {
   .logo {
     width: 2rem;
@@ -296,19 +288,15 @@ footer {
     width: 2rem;
     height: 2rem;
   }
-  .textoQuienes {
-    font-size: 0.75rem;
-    width: 100%;
-  }
-  #tripu {
-    display: none;
-  }
   .certif {
     width: 2rem;
     height: 2rem;
   }
-  .a123 {
-    width: 100vw;
+  .quienes {
+    font-size: 2rem;
+  }
+  .textoFlota {
+    font-size: 1rem;
   }
 }
 
@@ -327,10 +315,6 @@ footer {
     width: 2rem;
     height: 2rem;
   }
-  .textoQuienes {
-    font-size: 0.75rem;
-    margin-top: 2%;
-  }
   .certif {
     width: 2rem;
     height: 2rem;
@@ -338,23 +322,25 @@ footer {
   .quienes {
     font-size: 1.75rem;
   }
+  .textoFlota {
+    font-size: 1.25rem;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  .textoQuienes {
-    font-size: 1rem;
-    margin-top: 2%;
-  }
-  .certif {
-    width: 2rem;
-    height: 2rem;
-  }
   .quienes {
     font-size: 2rem;
   }
+  .textoFlota {
+    font-size: 1.5rem;
+  }
 }
 
-.a123 {
-  width: 50%;
+.card-body {
+  background-image: none;
+}
+
+.card {
+  background-color: transparent;
 }
 /*# sourceMappingURL=styles.css.map */
